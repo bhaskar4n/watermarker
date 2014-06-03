@@ -3,7 +3,7 @@ watermarker
 
 ##### water marker for images
 
-water marker that  process multiple images simultaneously
+Process multiple images simultaneously
 
 create a folder(images) to  put all your images inside the folder (Don't change the name of the folder)
 
