@@ -5,7 +5,7 @@ watermarker
 
 water marker that  process multiple images simultaneously
 
-create a folder(images) to  put all your images inside the folder(Don't change the name of folder)
+create a folder(images) to  put all your images inside the folder (Don't change the name of the folder)
 
 <img src = "https://raw.githubusercontent.com/bhaskar4n/watermarker/master/screen%20shots/one.PNG"/>
 
