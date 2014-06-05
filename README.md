@@ -13,7 +13,7 @@ images inside the folder(images)
 
 <img src ="https://raw.githubusercontent.com/bhaskar4n/watermarker/master/screen%20shots/two.PNG"/>
 
-if you want to add logo watermark to your images. create logo folder(don't change name of the folder) and put your logo inside.
+if you want to add logo watermark. create logo folder(don't change name of the folder) and put your logo inside.
 
 <img src = "https://raw.githubusercontent.com/bhaskar4n/watermarker/master/screen%20shots/15.PNG"/>
 
