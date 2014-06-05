@@ -47,3 +47,5 @@ sample water marked image with both logo and text
 
 
 for more sample images click water_marked_samples folder
+
+Reference : http://www.pythonware.com/media/data/pil-handbook.pdf
