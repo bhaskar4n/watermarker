@@ -5,6 +5,8 @@ watermarker
 
 Process multiple images simultaneously, customizable font size, semi-transparent text, logo watermark
 
+requirements: python 2.7 and PIL(Python image library)
+
 create a folder(images) to  put all your images inside the folder (Don't change the name of the folder)
 
 <img src = "https://raw.githubusercontent.com/bhaskar4n/watermarker/master/screen%20shots/one.PNG"/>
