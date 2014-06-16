@@ -16,6 +16,7 @@ if not os.path.exists(paths):
 dirs = os.listdir(path)
 
 if choice == 2:
+    trans = int(input("Transparent level(default=100): "))
     dirs1 = os.listdir(logo_path)
     file = "logo".join(dirs1)
     lgo_pth = logo_path+file
@@ -25,10 +26,12 @@ if choice == 2:
 if choice == 1:
     txt = raw_input("enter water_marker text: ")
     txtsize = int(input("enter the text size(default=72): "))
+    trans = int(input("Transparent level(default=100): "))
     
 if choice ==3:
     txt = raw_input("enter water_marker text: ")
     txtsize = int(input("enter the text size(default=72): "))
+    trans = int(input("Transparent level(default=100): "))
     dirs1 = os.listdir(logo_path)
     file = "logo".join(dirs1)
     lgo_pth = logo_path+file
@@ -57,7 +60,7 @@ for file in dirs:
         if choice == 1:
             #font = ImageFont.truetype("Arial.ttf",72)
             draw.text(((im.size[0]/2 - a[0]/2, im.size[1]/2)),txt,font=font,fill=(255,255,255))
-            mask = transparent.convert("L").point(lambda x: min(x, 100))
+            mask = transparent.convert("L").point(lambda x: min(x, trans))
             transparent.putalpha(mask)
             im.paste(transparent,None,transparent)
             print "water_marked"
@@ -66,7 +69,7 @@ for file in dirs:
 
     elif choice == 2:
         
-        masklogo = logo.convert("L").point(lambda x: min(x,100))
+        masklogo = logo.convert("L").point(lambda x: min(x,trans))
         print "logo_water_marked"
         x = im.size[0]/2-lgo[0]/2
         y = im.size[1]/2-lgo[1]/2
@@ -75,7 +78,7 @@ for file in dirs:
 
     if choice == 3:
 
-        masklogo = logo.convert("L").point(lambda x: min(x,100))
+        masklogo = logo.convert("L").point(lambda x: min(x,trans))
         print "logo_water_marked"
         x = im.size[0]/2-lgo[0]/2
         y = im.size[1]/2-lgo[1]/2
@@ -92,7 +95,7 @@ for file in dirs:
         #if choice == 1:
             #font = ImageFont.truetype("Arial.ttf",72)
         draw.text(((im.size[0]/2 - a[0]/2, im.size[1]/2+lgo[1]/2)),txt,font=font,fill=(255,255,255))
-        mask = transparent.convert("L").point(lambda x: min(x, 100))
+        mask = transparent.convert("L").point(lambda x: min(x, trans))
         transparent.putalpha(mask)
         im.paste(transparent,None,transparent)
         print "water_marked"
@@ -100,17 +103,6 @@ for file in dirs:
         
         
 
-            
-        
-
- 
-        
-
-    
-        
-    
-    
-   
 print "saving....."
 t =  time.sleep(2)
 print "finished"
