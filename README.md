@@ -3,7 +3,7 @@ watermarker
 
 ##### water marker for images
 
-Process multiple images simultaneously, customizable font size, semi-transparent text, logo watermark
+Process multiple images simultaneously, customizable font size, semi-transparent text, logo watermark, transparency customization.
 
 requirements: python 2.7 and PIL(Python image library)
 
