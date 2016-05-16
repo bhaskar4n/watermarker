@@ -1,6 +1,9 @@
 watermarker
 ===========
-
+##note: linux users, please add truetype font path 
+``` python
+font = ImageFont.truetype("/usr/share/fonts/truetype/droid/DroidSansMono.ttf",txtsize)
+```
 ##### water marker for images
 
 requirements: python 2.7 and PIL(Python image library)
