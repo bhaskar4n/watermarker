@@ -10,7 +10,7 @@ watermarker
     self.font = core.getfont(font, size, index, encoding)
 IOError: cannot open resource
 ```
-##note: linux users, please add truetype font path 
+##note: linux users, please include truetype font path 
 ``` python
 font = ImageFont.truetype("/usr/share/fonts/truetype/droid/DroidSansMono.ttf",txtsize)
 ```
