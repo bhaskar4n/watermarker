@@ -1,6 +1,7 @@
 watermarker
 ===========
-## To fix this error,please add truetype font path 
+## for linux users
+##### To fix this error,please add truetype font path 
 ```python
  File "watermark.py", line 58, in <module>
     font = ImageFont.truetype("DroidSansMono.ttf",txtsize)
@@ -10,11 +11,11 @@ watermarker
     self.font = core.getfont(font, size, index, encoding)
 IOError: cannot open resource
 ```
-##note: linux users, please include truetype font path 
+#####note: linux users, please include truetype font path 
 ``` python
 font = ImageFont.truetype("/usr/share/fonts/truetype/droid/DroidSansMono.ttf",txtsize)
 ```
-
+=
 
 
 ## water marker for images
