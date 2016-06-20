@@ -1,6 +1,6 @@
 watermarker
 ===========
-## for linux users
+## linux users:
 ##### To fix this error,please add truetype font path 
 ```python
  File "watermark.py", line 58, in <module>
