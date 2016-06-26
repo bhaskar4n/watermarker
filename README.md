@@ -22,7 +22,7 @@ font = ImageFont.truetype("/usr/share/fonts/truetype/droid/DroidSansMono.ttf",tx
 
 requirements: python 2.7 and PIL(Python image library)
 
-create a folder(images) and put all your images inside the folder (Don't change the name of the folder)
+first, create a folder(images) and put all your images inside the folder (Don't change the name of the folder)
 
 <img src = "https://raw.githubusercontent.com/bhaskar4n/watermarker/master/screen%20shots/one.PNG"/>
 
