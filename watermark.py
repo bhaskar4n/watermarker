@@ -50,7 +50,7 @@ for file in dirs:
         
         transparent = Image.new("RGBA", im.size)
         draw = ImageDraw.ImageDraw(transparent,"RGBA")
-        font = ImageFont.truetype("Arial.ttf",txtsize)
+        font = ImageFont.truetype("arial.ttf",txtsize)
     
         a = font.getsize(txt)
         print "getsize",a
